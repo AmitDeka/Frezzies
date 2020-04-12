@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fafafa</color>
+    <color name="colorPrimaryDark">#c7c7c7</color>
+    <color name="colorAccent">#1de9b6</color>
+
+    <!-- Color Gradient button -->
+    <color name="gradient_start">#17ead9</color>
+    <color name="gradient_end">#6078ea</color>
+
+    <!-- Color tab -->
+    <color name="tab_indicator">#1bcedf</color>
+    <color name="intro_title">#fccf3a</color>
+    <color name="intro_desc">#ea5a6f</color>
+
+    <!-- LogIn Tab -->
+    <color name="form_details">#ccffffff</color>
+    <color name="form_details_light">#1affffff</color>
+    <color name="form_details_medium">#66ffffff</color>
+
+
+</resources>
