@@ -43,24 +43,24 @@ public class loginActivity extends AppCompatActivity {
         inpPassword = findViewById(R.id.password);
         //Initialize SessionManager
         sessionManager = new SessionManager(getApplicationContext());
-        btLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //btLogin.setOnClickListener(new View.OnClickListener() {
+           // @Override
+            //public void onClick(View view) {
                 //get text from EditText
-                String sEmail = etEmail.getText().toString().trim();
-                String sPassword = etPassword.getText().toString().trim();
-                if (sPassword.equals("")) {
-                    etPassword.setError("Please enter a valid Password");
-                }
-            }
-        });
+              //  String sEmail = etEmail.getText().toString().trim();
+                //String sPassword = etPassword.getText().toString().trim();
+                //if (sPassword.equals("")) {
+          //          etPassword.setError("Please enter a valid Password");
+                //}
+            //}
+        //});
 
-        notHaveAcc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(loginActivity.this, dashboardActivity.class));
-            }
-        });
+      //  notHaveAcc.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+          //  public void onClick(View view) {
+            //    startActivity(new Intent(loginActivity.this, dashboardActivity.class));
+            //}
+        ////});
     }
 
     private boolean validateEmail() {
